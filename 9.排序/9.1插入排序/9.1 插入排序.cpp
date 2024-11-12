@@ -1,5 +1,5 @@
 //
-// Created by 24405 on 24-11-4.
+// Created by leo on 24-11-4.
 //
 
 
@@ -35,6 +35,7 @@ void Insert_Sort(Ty a[],int n) {
         a[high + 1] = tmp;
     }
 }
+
 
 //希尔排序
 void ShellSort(Ty a[],int n) {
