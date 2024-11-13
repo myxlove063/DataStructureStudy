@@ -1,5 +1,5 @@
 //
-// Created by 24405 on 24-11-12.
+// Created by ElegyNine on 24-11-12.
 //
 
 //将一个数组调整成一个堆
@@ -19,6 +19,7 @@ void adjustHeap(int a[], int k, int len) {
     a[k] = tmp;
 }
 
+//用一个数组建一个大顶堆
 void BuildMaxHeap(int a[], int len) {
     for (int i = len / 2; i ; i--) {
         adjustHeap(a, i, len);
